@@ -90,6 +90,7 @@ function App() {
       <Route path = "/customer/prevrides" element ={<Previousride/>}></Route>
       <Route path = "/customer/controller" element={<Custcontroller/>}></Route>
       <Route path = "/customer/update" element={<Custprofile/>}></Route>
+      {/* testing */}
  
      
         
