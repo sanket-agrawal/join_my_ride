@@ -1,0 +1,77 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #212AA5;
+    color: #ffffff;
+    /* text-align: left; */
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    /* font-weight:bold ; */
+    font-size: 16px;
+   
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #212AA5;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #212AA5;
+}
+
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+   
+    text-align: center;
+
+   position: relative; 
+     margin: auto;
+     padding:5px  ;
+
+  }
+  
+  .circular--portrait2 { 
+      position: relative; 
+      width: 200px; 
+      height: 220px; 
+      overflow: hidden; 
+      border-radius: 50%; 
+      margin: 50px;
+      
+  } 
+  
+  .circular--portrait2 img { 
+      width: 100%; 
+      height: auto; 
+  }
+
+  .cardtable{
+    position: relative; 
+    margin: auto;
+    font-weight: bold;
+    /* border: 2px solid black;
+    border-radius: 4px; */
+    
+  }
+.data{
+    text-align: left;
+}

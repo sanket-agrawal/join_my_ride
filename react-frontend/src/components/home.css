@@ -1,0 +1,46 @@
+@keyframes gradbar {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.grad-bar {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(-45deg, #2e37ab, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+        animation: gradbar 15s ease infinite;
+   
+  }
+
+
+.navb{
+	height: 90px;
+	border-bottom:1px black solid ;
+	margin-bottom: 20px;
+	
+}
+.navbar{
+	margin-left: 10px	;
+	
+	
+}
+
+.logo{
+	width:"200px"; height:"140";
+}
+ 
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+
